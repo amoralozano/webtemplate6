@@ -2,6 +2,12 @@
     <script
         src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.0/dist/alpine.js"
         defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway&display=swap"
+        rel="stylesheet"
+    />
     <style>
         /* Basic styles for the navbar */
         .navbar {
@@ -19,7 +25,11 @@
         }
         .nav-links li a {
             color: white;
-            text-decoration: none;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: 2px;
             padding: 0.5rem 1.5rem;
         }
         .nav-links li a:hover {
@@ -69,14 +79,14 @@
         </div>
 
         <ul class="nav-links ml-[-200px]">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="text-[16px]">Home</a></li>
+            <li><a href="#" class="text-[16px]">About</a></li>
+            <li><a href="#" class="text-[16px]">Services</a></li>
+            <li><a href="#" class="text-[16px]">Contact</a></li>
         </ul>
         <div class="p-2 ml-[-150px] w-[200px] flex items-center justify-center">
             <button
-                class="w-[110px] h-[40px] rounded-lg text-white bg-[#FF6000] flex items-center justify-center ml-[-50px] text-[15px] font-bold"
+                class="w-[110px] h-[40px] rounded-lg text-white bg-[#FF6000] flex items-center justify-center ml-[-50px] text-[15px] font-light"
             >
                 Sign Up
             </button>
